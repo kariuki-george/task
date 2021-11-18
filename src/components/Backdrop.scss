@@ -1,0 +1,16 @@
+.backdrop {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 8;
+  background-color: rgba(43, 42, 42, 0.884);
+
+  button {
+    font-size: 25px;
+    position: absolute;
+    left: 2em;
+    top: 1em;
+    width: 40px;
+  }
+}

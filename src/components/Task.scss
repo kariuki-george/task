@@ -1,0 +1,64 @@
+.tasks {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+
+  .none {
+    margin: 2em;
+  }
+
+  ul {
+    width: 100%;
+
+    li {
+      position: relative;
+      display: flex;
+
+      padding: 5px;
+      align-items: center;
+      border-bottom: 1px white solid;
+      h4 {
+        position: absolute;
+        right: 55px;
+        font-style: italic;
+      }
+      button {
+        position: absolute;
+        right: 5px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  ul {
+    li {
+      position: relative;
+      display: flex;
+
+      padding: 5px;
+      align-items: center;
+      border-bottom: 1px white solid;
+      h4 {
+        position: absolute;
+        right: 110px;
+        font-style: italic;
+      }
+      button {
+        position: absolute;
+        right: 5px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 20px;
+      }
+    }
+  }
+}

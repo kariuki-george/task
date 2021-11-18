@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+body {
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+.app {
+  width: 95vw;
+  margin: 1em auto;
+  border: 1px white solid;
+  border-radius: 10px;
+  min-height: 95vh;
+  max-width: 800px;
+  background-color: black;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+
+  height: fit-content;
+  border: 1px white solid;
+  border-radius: 5px;
+
+  input {
+    width: 250px;
+    height: 40px;
+    margin: 1em auto;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+
+    padding-left: 1em;
+  }
+
+  button {
+    width: 250px;
+    height: 40px;
+    margin: 1em auto;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+  }
+  button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+}

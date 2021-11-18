@@ -1,0 +1,54 @@
+.hero {
+  width: 100%;
+  height: 300px;
+  border-bottom: 1px white solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .hero_task {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+    h3 {
+      margin-top: 3em;
+    }
+    .add-task {
+      padding-left: 10px;
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      border-left: 1px white solid;
+      align-items: center;
+      justify-content: space-around;
+      button {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hero_task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    .add-task {
+      width: 80% !important;
+      border: 0px !important;
+      border-top: 1px white solid !important;
+      padding-top: 5px;
+      button {
+        width: 30vw !important;
+        margin-top: 1em;
+      }
+    }
+  }
+}

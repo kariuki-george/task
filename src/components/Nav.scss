@@ -1,0 +1,19 @@
+.nav {
+  width: 100%;
+  border-bottom: 1px white solid;
+  display: flex;
+  padding: 10px 1em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    h4 {
+      margin-top: 1em;
+      color: beige;
+    }
+  }
+}
